@@ -19,7 +19,6 @@
     definition/1
 ]).
 
--define(DEBUG, true).
 -include("debug.hrl").
 
 -include("sourcer_model.hrl").

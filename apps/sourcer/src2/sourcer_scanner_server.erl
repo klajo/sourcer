@@ -3,7 +3,6 @@
 %% Description:
 -module(sourcer_scanner_server).
 
-%% -define(DEBUG, 1).
 
 -include("debug.hrl").
 -include("sourcer_scanner_server.hrl").

@@ -6,8 +6,6 @@
 
 -author(jakob).
 
-%% -define(DEBUG, 1).
-
 -include("debug.hrl").
 -include("include/sourcer_token.hrl").
 

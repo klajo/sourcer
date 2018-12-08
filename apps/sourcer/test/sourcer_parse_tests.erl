@@ -5,7 +5,6 @@
 -include("sourcer_parse.hrl").
 -include("sourcer_model.hrl").
 
--define(DEBUG, true).
 -include("debug.hrl").
 
 -define(e(R, S),

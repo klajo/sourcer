@@ -4,7 +4,6 @@
 
 -module(sourcer_search_server).
 
-%% -define(DEBUG, 1).
 
 -include("debug.hrl").
 

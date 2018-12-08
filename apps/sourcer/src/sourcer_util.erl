@@ -18,7 +18,6 @@
     add_auto_imported/1
 ]).
 
--define(DEBUG, true).
 -include("debug.hrl").
 
 -define(SEP, ";").

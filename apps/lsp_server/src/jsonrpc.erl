@@ -12,9 +12,6 @@
 		send_reply/2
 	]).
 
--define(TRACE, true).
--define(DEBUG, true).
-
 -ifdef(TRACE).
 -define(TRACE(F, A), io:format(F, A)).
 -else.

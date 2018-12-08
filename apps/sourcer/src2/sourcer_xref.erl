@@ -14,7 +14,6 @@
          module_use/1,
          update/0]).
 
-%-define(DEBUG, 1).
 
 -define(XREF, sourcer_xref).
 

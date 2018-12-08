@@ -50,3 +50,24 @@ The actual work is done by this application. It is meant to be LSP-agnostic so t
 An own parser (largely based on the legacy 'sourcer' code, but simpler) processes the source code and produces a ctags-like database containing information about all interesting code entities. The database should be distributed, in the sense that libraries should be able to provide the data about their own code (produced at build time).
 
 Query facilities are provided so that the information in the database is presented in a way that the LSP expects.
+
+## Compiling
+
+Run this to build everything:
+
+    rebar3 compile
+
+Run this to build everything with `DEBUG` printouts enabled:
+
+    rebar3 as debug compile
+
+Run this to build everything with `TRACE` printouts enabled:
+
+    rebar3 as trace compile
+
+Run this to build everything with both `DEBUG` and `TRACE` printouts enabled:
+
+    rebar3 as debug,trace compile
+
+Please note that these will result in different builds below the
+`_build` directory.

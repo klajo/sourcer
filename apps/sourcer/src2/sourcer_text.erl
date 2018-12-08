@@ -20,7 +20,6 @@
          strip_percents_and_spaces/1,
          strip_comments/1, skip_expr/1]).
 
-%% -define(DEBUG, 1).
 
 -include("debug.hrl").
 -include("sourcer_token.hrl").

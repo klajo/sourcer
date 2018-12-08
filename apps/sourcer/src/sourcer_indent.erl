@@ -10,7 +10,6 @@
 -export([get_prefs/1]).
 -endif.
 
-%%-define(DEBUG, true).
 -ifdef(DEBUG).
 -define(D(T), io:format(user, "~p\n", [{??T, ?MODULE, ?LINE, T}])).
 -define(D(F,A), io:format(user, "~w:~w: " ++ F, [?MODULE, ?LINE|A])).

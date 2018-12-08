@@ -2,7 +2,6 @@
 
 -include_lib("eunit/include/eunit.hrl").
 
--define(DEBUG, true).
 -include("debug.hrl").
 
 -include("sourcer_model.hrl").

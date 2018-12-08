@@ -3,7 +3,6 @@
 
 -module(sourcer_search).
 
-%% -define(DEBUG, 1).
 
 -include("debug.hrl").
 -include("include/sourcer_search.hrl").

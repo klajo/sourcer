@@ -9,7 +9,6 @@
 
 -include("sourcer_model.hrl").
 
--define(DEBUG, true).
 -include("debug.hrl").
 
 -ifdef(DEBUG).

@@ -15,8 +15,6 @@
 
 -include_lib("kernel/include/file.hrl").
 
-%% -define(DEBUG, 1).
-
 -include("debug.hrl").
 
 %% recursively return tags for which Fun returns true

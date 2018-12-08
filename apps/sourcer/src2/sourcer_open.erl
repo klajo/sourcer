@@ -22,9 +22,6 @@
 
 %% TODO: (JC) there are some code duplication in external modules (and includes) handling
 
-%%-define(DEBUG, 1).
-%%
-
 -include("debug.hrl").
 -include("sourcer_open.hrl").
 -include("include/sourcer_token.hrl").

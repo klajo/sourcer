@@ -2,8 +2,6 @@
 %% Created: 7 nov 2010
 -module(sourcer_np_util).
 
-%% -define(DEBUG, 1).
-
 -include("debug.hrl").
 -include("sourcer_noparse.hrl").
 -include("sourcer_token.hrl").

@@ -5,8 +5,6 @@
 
 -export([toggle_comment/3]).
 
-%-define(DEBUG, 1). %
-
 -include("debug.hrl").
 
 %%

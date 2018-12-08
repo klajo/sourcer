@@ -5,7 +5,6 @@
 
 -module(sourcer_scan_model).
 
-%% -define(DEBUG, 1).
 
 -include("debug.hrl").
 -include("sourcer_token.hrl").

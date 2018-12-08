@@ -3,7 +3,6 @@
 %% Description:
 -module(sourcer_scanner).
 
-%% -define(DEBUG, 1).
 
 -include("debug.hrl").
 -include("sourcer_token.hrl").

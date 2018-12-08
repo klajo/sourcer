@@ -4,7 +4,6 @@
     dump/3
 ]).
 
--define(DEBUG, true).
 -include("debug.hrl").
 
 -include("sourcer_model.hrl").
